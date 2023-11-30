@@ -93,13 +93,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
+    width: 100px;
     height: 30px;
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 15px;
     border-color: #1F2937;
     border: none;
+    cursor: pointer;
 }
 
 .block2 {
@@ -160,4 +161,45 @@ button {
     font-weight: bolder;
     width: 100%;
     text-align: right;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 70%;
+    background-color: #3882F6;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+
+.action-text {
+    color: #F9FAF8;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 15px;
+    border-color: #E5E7EB;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: solid;
+}
+
+b {
+    font-size: 24px;
 }
