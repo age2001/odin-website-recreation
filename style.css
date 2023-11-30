@@ -1,12 +1,16 @@
-html, body{
-    height: 100%;
-    margin: 0;
+html {
+    overflow-y: scroll;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
 }
 
 ul {
@@ -25,6 +29,7 @@ a {
 
 .header {
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
     height: 75px;
@@ -35,10 +40,11 @@ a {
 
 .footer {
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     height: 75px;
-    
+    color: #E5E7EB;
 }
 
 .header, .footer, .block1{
@@ -53,5 +59,39 @@ a {
 }
 
 .block1, .block2, .block3, .block4 {
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 15%;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.placeholder {
+    display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: grey;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.btn1 {
+    width: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 15px;
+    border-color: #1F2937;
 }
