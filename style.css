@@ -96,12 +96,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 120px;
     height: 30px;
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 15px;
     border-color: #1F2937;
+    border: none;
 }
 
 .block2 {
